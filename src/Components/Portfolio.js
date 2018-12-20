@@ -17,7 +17,7 @@ class Portfolio extends Component {
                 </a>
               </div>
               <div className="explanation">
-                <p className="titles"><span>&bull;</span> Project:<em className="project"> Soundiversify.com</em></p>
+                <p className="titles"><span>&bull;</span> Project:<em className="project"> Electronify.com</em></p>
                 <p className="titles"><span>&bull;</span> Role:<em className="project"> Creator and Full-Stack Developer</em></p>
                 <p className="titles"><span>&bull;</span> About:<em className="project"> An authentic playlist generator</em></p>
                 <p className="titles"><span>&bull;</span> Technologies:
