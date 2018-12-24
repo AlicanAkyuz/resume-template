@@ -88,7 +88,7 @@ export function fetchStart() {
       message: getState().form.message
     };
     dispatch(onLoading());
-    fetch('http://localhost:3000/contact', {
+    fetch('http://alicanakyuz.tech/contact', {
       method: 'POST',
       body: JSON.stringify(data),
       headers: {
