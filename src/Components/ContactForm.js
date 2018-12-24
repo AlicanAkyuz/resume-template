@@ -74,7 +74,7 @@ class ContactForm extends Component {
             <hr />
             <p className="lead">
               Whether you have a project for me or want to create something from the scratch together,
-              please do not hesitate to contact me. I look forward to hearing from you!
+              please do not hesitate to contact me. I look forward to hearing from you.
             </p>
           </div>
          </div>

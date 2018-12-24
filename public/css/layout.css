@@ -207,7 +207,7 @@ ul#nav li.current a { color: #696969; }
 
 #portfolio-wrapper .columns-portfolio-item {
   width: 100%;
-  height: 280px;
+  height: 200px;
   display: flex;
   flex-direction: row;
   padding: 5px;
@@ -215,7 +215,7 @@ ul#nav li.current a { color: #696969; }
 }
 
 #portfolio-wrapper .columns-portfolio-item .item-wrap {
-  width: 50%;
+  width: 45%;
   height: 100%;
 }
 
@@ -223,18 +223,19 @@ ul#nav li.current a { color: #696969; }
   width: 50%;
   height: 100%;
   padding: 1%;
+  margin-left: 5%;
 }
 #portfolio-wrapper .columns-portfolio-item .explanation p {
-  font: 17px/28px 'Helvetica-bold', sans-serif;
+  font: 1.3vmax 'Helvetica-bold', sans-serif;
   color: #d3d3d3;
   margin-bottom: 5px;
 }
 #portfolio-wrapper .columns-portfolio-item .explanation span {
-  color: #e9e9e9;
-  font: 20px/28px 'Helvetica-bold', sans-serif;
+  color: #c5c5c5;
+  font: 1.5vmax 'Helvetica', sans-serif;
 }
 #portfolio-wrapper .columns-portfolio-item .explanation em {
-  font: 16px/28px 'Helvetica', sans-serif;
+  font: 1.3vmax 'Helvetica', sans-serif;
   color: #939393;
   letter-spacing: 1px;
 }

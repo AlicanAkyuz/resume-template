@@ -12,17 +12,10 @@ class Resume extends Component {
           </div>
           <div className="nine columns main-col">
             <div key="Soundiversify.io">
-              <h3>Soundiversify.io</h3>
-              <p className="info">Founder
+              <h3>Electrony.space</h3>
+              <p className="info">Founder and Full-Stack Developer
                 <span>&bull;</span>
-                <em className="date">August 2017 - Present</em>
-              </p>
-            </div>
-            <div key="Museumlocale.com">
-              <h3>Museumlocale.com</h3>
-              <p className="info">Full-Stack Developer
-                <span>&bull;</span>
-                <em className="date">September 2018 - January 2019</em>
+                <em className="date">August 2018 - Present</em>
               </p>
             </div>
             <div key="Onedio.com">
@@ -84,27 +77,27 @@ class Resume extends Component {
 				  <ul className="skills">
             <li key="Figma (80%)">
               <span style={{width: "80%"}} className="bar-expand figma (80%)"></span>
-              <em>Figma (80%)</em>
+              <em>Figma/Sketch (80%)</em>
             </li>
-            <li key="HTML5 & CSS3 (90%)">
-              <span style={{width: "90%"}} className="bar-expand html5 & css3 (90%)"></span>
-              <em>HTML5 & CSS3 (90%)</em>
+            <li key="HTML5 & CSS3 (95%)">
+              <span style={{width: "95%"}} className="bar-expand html5 & css3 (95%)"></span>
+              <em>HTML5 & CSS3 (95%)</em>
             </li>
-            <li key="Responsive Design Grid & FlexBox (80%)">
-              <span style={{width: "80%"}} className="bar-expand responsive design grid & flexBox (80%)"></span>
-              <em>Grid & FlexBox (80%)</em>
+            <li key="Responsive Design Grid & FlexBox (90%)">
+              <span style={{width: "90%"}} className="bar-expand responsive design grid & flexBox (90%)"></span>
+              <em>Grid & FlexBox (90%)</em>
             </li>
-            <li key="JavaScript ES6 (85%)">
-              <span style={{width: "85%"}} className="bar-expand javascript es6 (85%)"></span>
-              <em>JavaScript ES6 (85%)</em>
+            <li key="JavaScript ES6 (90%)">
+              <span style={{width: "90%"}} className="bar-expand javascript es6 (85%)"></span>
+              <em>JavaScript ES6 (90%)</em>
             </li>
             <li key="React.JS (90%)">
               <span style={{width: "90%"}} className="bar-expand react.js (90%)"></span>
               <em>React.JS (90%)</em>
             </li>
-            <li key="React Material-UI (90%)">
-              <span style={{width: "90%"}} className="bar-expand react material-ui (90%)"></span>
-              <em>React Material-UI (90%)</em>
+            <li key="React Material-UI (95%)">
+              <span style={{width: "95%"}} className="bar-expand react material-ui (95%)"></span>
+              <em>React Material-UI (95%)</em>
             </li>
             <li key="React-Redux (80%)">
               <span style={{width: "80%"}} className="bar-expand react-redux (80%)"></span>
@@ -114,17 +107,17 @@ class Resume extends Component {
               <span style={{width: "70%"}} className="bar-expand react native (70%)"></span>
               <em>React Native (70%)</em>
             </li>
-            <li key="Node with Express.JS (60%)">
-              <span style={{width: "60%"}} className="bar-expand node with express.js (60%)"></span>
-              <em>Node with Express.JS (60%)</em>
+            <li key="Node with Express.JS (75%)">
+              <span style={{width: "75%"}} className="bar-expand node with express.js (75%)"></span>
+              <em>Node with Express.JS (75%)</em>
             </li>
             <li key="TDD with Mocha (50%)">
               <span style={{width: "50%"}} className="bar-expand tdd with mocha (50%)"></span>
               <em>TDD with Mocha (50%)</em>
             </li>
-            <li key="Git (70%)">
-              <span style={{width: "70%"}} className="bar-expand git (70%"></span>
-              <em>Git (70%</em>
+            <li key="Git (90%)">
+              <span style={{width: "90%"}} className="bar-expand git (90%)"></span>
+              <em>Git (90%)</em>
             </li>
 					</ul>
 				</div>
