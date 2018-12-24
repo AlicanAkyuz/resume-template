@@ -10,14 +10,25 @@ class Resume extends Component {
           <div className="three columns header-col">
             <h1><span>Work Experience</span></h1>
           </div>
+
           <div className="nine columns main-col">
-            <div key="Soundiversify.io">
+
+            <div key="electrony.space">
               <h3>Electrony.space</h3>
               <p className="info">Founder and Full-Stack Developer
                 <span>&bull;</span>
                 <em className="date">August 2018 - Present</em>
               </p>
             </div>
+
+            <div key="open">
+              <h3>The Open University, UK</h3>
+              <p className="info">Social Media Coordinator
+                <span>&bull;</span>
+                <em className="date">September 2016 - January 2017</em>
+              </p>
+            </div>
+
             <div key="Onedio.com">
               <h3>Onedio.com</h3>
               <p className="info">Creative Content Editor

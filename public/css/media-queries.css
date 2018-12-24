@@ -220,6 +220,16 @@
    #portfolio-wrapper .columns { margin-bottom: 40px; }
    .popup-modal {	max-width: 85%; }
 
+   #portfolio-wrapper .columns-portfolio-item .explanation p {
+     font: 10px/15px 'Helvetica-bold', sans-serif;
+   }
+   #portfolio-wrapper .columns-portfolio-item .explanation span {
+     font: 8px/15px 'Helvetica', sans-serif;
+   }
+   #portfolio-wrapper .columns-portfolio-item .explanation em {
+     font: 8px/15px 'Helvetica', sans-serif;
+   }
+
    /* contact Section
    ----------------------------------------------------------------------- */
    #contact { padding-bottom: 66px; }

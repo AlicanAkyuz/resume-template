@@ -73,8 +73,7 @@ class ContactForm extends Component {
             <p className="title">Contact</p>
             <hr />
             <p className="lead">
-              Whether you have a project for me or want to create something from the scratch together,
-              please do not hesitate to contact me. I look forward to hearing from you.
+              Don't be shy to reach out. I look forward to hearing from you.
             </p>
           </div>
          </div>

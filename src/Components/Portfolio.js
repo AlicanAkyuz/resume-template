@@ -51,7 +51,7 @@ class Portfolio extends Component {
                     <em className="project"> Template on GitHub</em>
                   </a>
                 </p>
-                <p className="titles"><span>&bull;</span> About:<em className="project"> A portfolio template shared open-sorce with the community.</em></p>
+                <p className="titles"><span>&bull;</span> About:<em className="project"> A portfolio template shared open-sorce with the community</em></p>
                 <p className="titles"><span>&bull;</span> My Role:<em className="project"> Creator and Developer</em></p>
                 <p className="titles"><span>&bull;</span> Technologies Used:
                   <em className="project"> Material UI, Flexbox, React.js, React-Redux, Lodash, Mailgun.js</em>
