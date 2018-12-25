@@ -96,6 +96,7 @@ export function fetchStart() {
       }
     })
     .then(res => {
+      console.log(res);
       if (res.ok) {
         dispatch(onFetchSuccess());
         console.log('Success:', JSON.stringify(res.json()));
