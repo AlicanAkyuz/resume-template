@@ -20,7 +20,7 @@ class Footer extends Component {
 
            <ul className="copyright">
               <li>&copy; Copyright 2018 Alican Akyuz</li>
-              <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Alican Akyuz</a></li>
+
            </ul>
 
         </div>

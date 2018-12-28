@@ -20,8 +20,8 @@ class About extends Component {
             I completed an internship as a social media coordinator at the OU in the UK. Last year, I joined first
             Codecademy and then Udacity to develop my web development and programming skills.
             <br /><br />
-            I am the creator of <a target="_blank" href="https://electrony.space">Electrony</a>, which is an
-            interactive platform for electronic music lovers. Electrony is built with React.js and its RESTful
+            I am the creator of <a target="_blank" href="https://electrony.space" rel="noopener noreferrer">Electrony</a>,
+            which is an interactive platform for electronic music lovers. Electrony is built with React.js and its RESTful
             API works with Spotify. I am currently developing Electrony’s mobile app and a news website that aims
             at putting on a happy expression on its users’ faces through optimistic and heart warming news.
             <br /><br />

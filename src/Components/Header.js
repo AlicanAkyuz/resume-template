@@ -9,10 +9,10 @@ class Header extends Component {
   	      <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
           <ul id="nav" className="nav">
             <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
-            <li><a className="smoothscroll" href="#about">About</a></li>
-            <li><a className="smoothscroll" href="#portfolio">Portfolio</a></li>
-            <li><a className="smoothscroll" href="#resume">Resume</a></li>
-            <li><a className="smoothscroll" href="#contact">Contact</a></li>
+            <li><a className="smoothscroll" href="#about" rel="noopener noreferrer">About</a></li>
+            <li><a className="smoothscroll" href="#portfolio" rel="noopener noreferrer">Portfolio</a></li>
+            <li><a className="smoothscroll" href="#resume" rel="noopener noreferrer">Resume</a></li>
+            <li><a className="smoothscroll" href="#contact" rel="noopener noreferrer">Contact</a></li>
           </ul>
         </nav>
 
@@ -23,17 +23,17 @@ class Header extends Component {
             <hr />
             <ul className="social">
                <li key="facebook">
-                 <a target="_blank" href="https://www.facebook.com/alican.akyuz.13">
+                 <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/alican.akyuz.13">
                    <i className="fa fa-facebook"></i>
                  </a>
                </li>
                <li key="linkedin">
-                 <a target="_blank" href="https://www.linkedin.com/in/alican-akyuz-80b67416b/">
+                 <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/alican-akyuz-80b67416b/">
                    <i className="fa fa-linkedin"></i>
                  </a>
                </li>
                <li key="github">
-                 <a target="_blank" href="https://github.com/AlicanAkyuz">
+                 <a target="_blank" rel="noopener noreferrer" href="https://github.com/AlicanAkyuz">
                    <i className="fa fa-github"></i>
                  </a>
                </li>

@@ -1,5 +1,4 @@
 body { background: #0f0f0f; }
-
 header {
    position: relative;
    height: 800px;
@@ -9,7 +8,6 @@ header {
    text-align: center;
    overflow: hidden;
 }
-
 header:before {
    content: '';
    display: inline-block;
@@ -24,7 +22,6 @@ header .banner {
    padding-bottom: 30px;
    text-align: center;
 }
-
 header .banner-text { width: 100%; }
 header .banner-text h1 {
    font: 80px/1.1em 'Helvetica-bold', sans-serif;
@@ -50,8 +47,6 @@ header .banner-text hr {
    border-color: #2F2D2E;
    border-color: rgba(150, 150, 150, .3);
 }
-
-/* header social links */
 header .social {
    margin: 24px 0;
    padding: 0;
@@ -65,8 +60,6 @@ header .social li {
 }
 header .social li a { color: #fff; }
 header .social li a:hover { color: #545454; }
-
-/* scrolldown link */
 header .scrolldown a {
    position: absolute;
    bottom: 30px;
@@ -88,8 +81,6 @@ header .scrolldown a {
 }
 header .scrolldown a:hover { color: #545454; }
 
-/* primary navigation
---------------------------------------------------------------------- */
 #nav-wrap ul, #nav-wrap li, #nav-wrap a {
 	 margin: 0;
 	 padding: 0;
@@ -97,7 +88,6 @@ header .scrolldown a:hover { color: #545454; }
 	 outline: none;
 }
 
-/* nav-wrap */
 #nav-wrap {
    font: 14px 'Helvetica-bold', sans-serif;
    width: 100%;
@@ -110,7 +100,6 @@ header .scrolldown a:hover { color: #545454; }
 }
 .opaque { background-color: #000; }
 
-/* hide toggle button */
 #nav-wrap > a.mobile-btn { display: none; }
 
 ul#nav {
@@ -125,17 +114,13 @@ ul#nav li {
    display: inline-block;
 }
 
-/* Links */
 ul#nav li a {
-
-/* 8px padding top + 8px padding bottom + 32px line-height = 48px */
-
-   display: inline-block;
-   padding: 8px 13px;
-   line-height: 32px;
-	 text-decoration: none;
-   text-align: left;
-   color: #fff;
+ display: inline-block;
+ padding: 8px 13px;
+ line-height: 32px;
+ text-decoration: none;
+ text-align: left;
+ color: #fff;
 
 	-webkit-transition: color .2s ease-in-out;
 	-moz-transition: color .2s ease-in-out;
@@ -196,12 +181,10 @@ ul#nav li.current a { color: #696969; }
    border-color: #2F2D2E;
    border-color: rgba(150, 150, 150, .5);
 }
-/* Portfolio Content */
 #portfolio-wrapper {
   display: flex;
   flex-direction: column;
 }
-
 #portfolio-wrapper .columns-portfolio-item {
   width: 100%;
   height: 210px;
@@ -210,16 +193,13 @@ ul#nav li.current a { color: #696969; }
   padding: 5px;
   margin-bottom: 5%;
 }
-
 #portfolio-wrapper .columns-portfolio-item .item-wrap {
   width: 45%;
   height: 100%;
 }
-
 #portfolio-wrapper .columns-portfolio-item .explanation {
   width: 50%;
   height: 100%;
-
   margin-left: 5%;
 }
 #portfolio-wrapper .columns-portfolio-item .explanation p {
@@ -235,8 +215,6 @@ ul#nav li.current a { color: #696969; }
   font: 16px/22px 'Helvetica', sans-serif;
   color: #939393;
 }
-
-
 /* //////////////////////// RESUME /////////////////////////// */
 #resume {
    background: #000;
@@ -257,13 +235,11 @@ ul#nav li.current a { color: #696969; }
    border-color: #2F2D2E;
    border-color: rgba(150, 150, 150, .5);
 }
-
 #resume h1 {
    font: 20px/28px 'Helvetica', sans-serif;
    letter-spacing: 1px;
    color: #bdbdbd;
 }
-
 #resume h3 {
    font: 28px/40px 'Helvetica-bold', sans-serif;
    color: #e4e4e4;
@@ -290,7 +266,6 @@ ul#nav li.current a { color: #696969; }
    color: #696969;
    margin-top: 6px;
 }
-
 /* //////////////////////// SKILLS /////////////////////////// */
 .bars {
 	width: 95%;
@@ -329,7 +304,6 @@ ul#nav li.current a { color: #696969; }
    border-radius: 3px 0 0 3px;
 }
 
-/* Reset */
 .flexslider a:active,
 .flexslider a:focus  { outline: none; }
 .slides,
@@ -337,7 +311,6 @@ ul#nav li.current a { color: #696969; }
 .flex-direction-nav { margin: 0; padding: 0; list-style: none; }
 .slides li { margin: 0; padding: 0;}
 
-/* Necessary Styles */
 .flexslider {
    position: relative;
    zoom: 1;
@@ -346,13 +319,9 @@ ul#nav li.current a { color: #696969; }
 }
 .flexslider .slides { zoom: 1; }
 .flexslider .slides > li { position: relative; }
-
-/* Hide the slides before the JS is loaded. Avoids image jumping */
 .flexslider .slides > li { display: none; -webkit-backface-visibility: hidden; }
-/* Suggested container for slide animation setups. Can replace this with your own */
 .flex-container { zoom: 1; position: relative; }
 
-/* Clearfix for .slides */
 .slides:before,
 .slides:after {
    content: " ";
@@ -362,15 +331,11 @@ ul#nav li.current a { color: #696969; }
    clear: both;
 }
 
-/* No JavaScript Fallback */
-/* If you are not using another script, such as Modernizr, make sure you
- * include js that eliminates this class on page load */
 .no-js .slides > li:first-child { display: block; }
 
 /* Slider Styles */
 .slides { zoom: 1; }
 .slides > li {
-   /*margin-right: 5px; */
    overflow: hidden;
 }
 
@@ -417,43 +382,13 @@ ul#nav li.current a { color: #696969; }
    padding-top: 66px;
    padding-bottom: 102px;
 }
-#contact .thanks {
-   font: 40px/50px 'Helvetica', sans-serif;
-   text-align: center;
-   letter-spacing: 1px;
-   margin-bottom: 48px;
-   text-align: center;
-}
-#contact .thanksTitle {
-   font: 30px/40px 'Helvetica', sans-serif;
-   letter-spacing: 1px;
-   margin-bottom: 48px;
-   color: #a8a8a8;
-}
-#contact .thanksContent {
-   font: 15px/22px 'Helvetica', sans-serif;
-   letter-spacing: 1px;
-   margin-bottom: 48px;
-   color: #dbdbdb;
-}
 #contact .title {
    font: 40px/50px 'Helvetica-bold', sans-serif;
    letter-spacing: 1px;
    margin-bottom: 48px;
    color: #d7d7d7;
 }
-
 #contact .section-head { margin-bottom: 42px; }
-
-#contact a, #contact a:visited  { color: #11ABB0; }
-#contact a:hover, #contact a:focus { color: #fff; }
-
-#contact h1 {
-   font: 18px/24px 'Helvetica-bold', sans-serif;
-   letter-spacing: 3px;
-   margin-bottom: 6px;
-}
-#contact h1 span { display: none; }
 #contact h1:before {
    font-family: 'FontAwesome';
    content: "\f0e0";
@@ -464,7 +399,6 @@ ul#nav li.current a { color: #696969; }
    float: left;
    color: #d3d3d3;
 }
-
 #contact p.title {
    font: 40px/50px 'Helvetica-bold', sans-serif;
    padding-right: 3%;
@@ -532,12 +466,6 @@ ul#nav li.current a { color: #696969; }
 #contact button.submit:hover {
 	 background: #3f3f3f;
 }
-#contact p.error {
-  font: 12px/18px 'Helvetica', sans-serif;
-	color: #f1f1f1;
-  position: relative;
-  display: inline;
-}
 
 /* //////////////////////// FOOTER /////////////////////////// */
 footer {
@@ -548,10 +476,6 @@ footer {
    text-align: center;
    position: relative;
 }
-
-footer a, footer a:visited { color: #dbdbdb; }
-footer a:hover, footer a:focus { color: #fff; }
-
 /* copyright */
 footer .copyright {
     margin: 0;
@@ -563,25 +487,12 @@ footer .copyright li {
     padding: 0;
     line-height: 24px;
 }
-.ie footer .copyright li {
-   display: inline;
-}
-footer .copyright li:before {
-    content: "\2022";
-    padding-left: 10px;
-    padding-right: 10px;
-    color: #fafafa;
-}
-footer .copyright  li:first-child:before {
-    display: none;
-}
-
-/* Go To Top Button */
+/* Go-Top Button */
 #go-top {
 	position: absolute;
 	top: -24px;
-   left: 50%;
-   margin-left: -30px;
+  left: 50%;
+  margin-left: -30px;
 }
 #go-top a {
 	text-decoration: none;

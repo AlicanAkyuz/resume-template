@@ -13,14 +13,14 @@ class Portfolio extends Component {
 
             <div key="Electrony Website" className="columns-portfolio-item">
               <div className="item-wrap">
-                <a target="_blank" href="https://electrony.space" title="Electrony Website">
+                <a target="_blank" href="https://electrony.space" rel="noopener noreferrer" title="Electrony Website">
                   <img alt="Electrony Website" src="images/portfolio/electrony.png" />
                 </a>
               </div>
 
               <div className="explanation">
                 <p className="titles"><span>&bull;</span> Project Address:
-                  <a target="_blank" href="https://electrony.space" title="Electrony Website">
+                  <a target="_blank" href="https://electrony.space" rel="noopener noreferrer" title="Electrony Website">
                     <em className="project"> www.electrony.space</em>
                   </a>
                 </p>
@@ -31,7 +31,7 @@ class Portfolio extends Component {
                   <em className="project"> Founder and Full-Stack Developer</em>
                 </p>
                 <p className="titles"><span>&bull;</span> Technologies Used:
-                  <em className="project"> Material UI, Grid, Animate.css, React.js, React-Redux, React-Router-Dom, Express.js, Spotify Web API, AWS</em>
+                  <em className="project"> Material UI, CSS Grid, Animate.css, React.js, React-Redux, React-Router-Dom, Express.js, Spotify Web API, AWS</em>
                 </p>
               </div>
             </div>
@@ -40,21 +40,21 @@ class Portfolio extends Component {
 
             <div key="Portfolio Template" className="columns-portfolio-item">
               <div className="item-wrap">
-                <a target="_blank" href="https://github.com/AlicanAkyuz/Portfolio-Template" title="Portfolio Template">
-                  <img alt="Portfolio Template" src="images/portfolio/electrony.png" />
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/AlicanAkyuz/Portfolio-Template" title="Portfolio Template">
+                  <img alt="Portfolio Template" src="images/portfolio/portfolio.png" />
                 </a>
               </div>
 
               <div className="explanation">
                 <p className="titles"><span>&bull;</span> Project Address:
-                  <a target="_blank" href="https://github.com/AlicanAkyuz/Portfolio-Template" title="GitHub Template">
+                  <a target="_blank" rel="noopener noreferrer" href="https://github.com/AlicanAkyuz/Portfolio-Template" title="GitHub Template">
                     <em className="project"> Template on GitHub</em>
                   </a>
                 </p>
                 <p className="titles"><span>&bull;</span> About:<em className="project"> A portfolio template shared open-sorce with the community</em></p>
                 <p className="titles"><span>&bull;</span> My Role:<em className="project"> Creator and Developer</em></p>
                 <p className="titles"><span>&bull;</span> Technologies Used:
-                  <em className="project"> Material UI, Flexbox, React.js, React-Redux, Lodash, Mailgun.js</em>
+                  <em className="project"> Material UI, Flexbox, jQuery, React.js</em>
                 </p>
               </div>
             </div>

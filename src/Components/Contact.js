@@ -1,56 +1,59 @@
 import React, { Component } from 'react';
-import { connect } from 'react-redux';
-import ContactForm from './ContactForm';
-import ContactRender from './ContactRender';
 
 class Contact extends Component {
+
   render() {
-    let renderContact;
-    if (this.props.submitted === false) {
-      renderContact = <ContactForm />
-    };
-
-    if (this.props.load === true) {
-      renderContact = <ContactRender
-        title="Just a second!"
-        content="Your message is being processed..."
-        load="load" />
-    };
-
-    if (this.props.success === true) {
-      renderContact = <ContactRender
-        title="Your message has been received!"
-        content="Thank you! I will contact you shortly." />
-    };
-
-    if (this.props.failure === true) {
-      renderContact = <ContactRender
-        title="Ups..!"
-        content="There has been a server problem, please try again!" />
-    };
-
-    if (this.props.error === true) {
-      renderContact = <ContactForm errorFound="errorFound" />
-    };
-
     return (
-      <div>
-        {renderContact}
+      <section id="contact">
+         <div className="row section-head">
+          <div className="two columns header-col">
+            <h1><span></span></h1>
+          </div>
+          <div className="ten columns">
+            <p className="title">Contact</p>
+            <hr />
+            <p className="lead">
+              Don't be shy to reach out. I look forward to hearing from you.
+            </p>
+          </div>
+         </div>
+         <div className="row">
+          <div className="eight columns">
+            <div>
+              <form method="POST" action="https://formspree.io/alicakyz@gmail.com">
+  					   <label htmlFor="contactName">Name <span className="required">*</span></label>
+  					   <input type="text"
+                      size="35"
+                      required
+                      id="contactName"
+                      name="name" />
+               <label htmlFor="contactEmail">Email <span className="required">*</span></label>
+ 					     <input type="text"
+                      size="35"
+                      required
+                      id="contactEmail"
+                      name="email" />
+               <label htmlFor="contactSubject">Subject <span className="required">*</span></label>
+               <input type="text"
+                      size="35"
+                      required
+                      id="contactSubject"
+                      name="subject" />
+               <label htmlFor="contactMessage">Message <span className="required">*</span></label>
+               <textarea cols="10"
+                         rows="5"
+                         required
+                         id="contactMessage"
+                         name="message">
+               </textarea>
+               <button type="submit" className="submit">Submit</button>
+              </form>
+            </div>
+         </div>
       </div>
-
+    </section>
     );
   }
 }
 
-const mapStateToProps = state => {
-  return {
-    submitted: state.submitted,
-    load: state.load,
-    success: state.success,
-    failure: state.failure,
-    error: state.error
-  };
-};
-
-const connected = connect(mapStateToProps)(Contact);
-export default connected;
+export default Contact;
