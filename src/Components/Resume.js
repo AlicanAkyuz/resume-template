@@ -47,7 +47,7 @@ class Resume extends Component {
           <div className="row item">
             <div className="twelve columns">
               <div key="Udemy">
-                <h3>Udemy</h3>
+                <h3>Udacity</h3>
                 <p className="info">Full-Stack Web Development Certificate
                   <span>&bull;</span>
                   <em className="date">August, 2018</em>
