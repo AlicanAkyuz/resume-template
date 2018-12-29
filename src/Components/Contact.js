@@ -13,14 +13,14 @@ class Contact extends Component {
             <p className="title">Contact</p>
             <hr />
             <p className="lead">
-              Don't be shy to reach out. I look forward to hearing from you.
+              I look forward to hearing from you.
             </p>
           </div>
          </div>
          <div className="row">
           <div className="eight columns">
             <div>
-              <form method="POST" action="https://formspree.io/alicakyz@gmail.com">
+              <form method="POST" action="https://formspree.io/YOUR EMAIL ADDRESS HERE">
   					   <label htmlFor="contactName">Name <span className="required">*</span></label>
   					   <input type="text"
                       size="35"
