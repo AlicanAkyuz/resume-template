@@ -18,22 +18,22 @@ class Header extends Component {
 
         <div className="row banner">
          <div className="banner-text">
-            <h1 className="responsive-headline">Hi, I'm Alican Akyuz</h1>
-            <h3>I'm a web developer based in Oregon/USA and Berlin/Germany.</h3>
+            <h1 className="responsive-headline">YOUR NAME HERE</h1>
+            <h3>I'm a web developer based in ...</h3>
             <hr />
             <ul className="social">
                <li key="facebook">
-                 <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/alican.akyuz.13">
+                 <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/">
                    <i className="fa fa-facebook"></i>
                  </a>
                </li>
                <li key="linkedin">
-                 <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/alican-akyuz-80b67416b/">
+                 <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/">
                    <i className="fa fa-linkedin"></i>
                  </a>
                </li>
                <li key="github">
-                 <a target="_blank" rel="noopener noreferrer" href="https://github.com/AlicanAkyuz">
+                 <a target="_blank" rel="noopener noreferrer" href="https://github.com/">
                    <i className="fa fa-github"></i>
                  </a>
                </li>
